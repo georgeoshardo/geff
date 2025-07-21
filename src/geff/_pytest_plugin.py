@@ -98,7 +98,6 @@ def path_w_expected_graph_props(
             The expected graph properties in a dictionary.
         """
 
-        directed = True
         graph_props = create_dummy_graph_props(
             node_dtype=node_dtype,
             node_prop_dtypes=node_prop_dtypes,
